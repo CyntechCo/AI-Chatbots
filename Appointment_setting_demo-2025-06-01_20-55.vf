@@ -1,0 +1,3511 @@
+{
+  "version": {
+    "_version": 13.02,
+    "autoSaveFromRestore": false,
+    "canvasTemplates": [],
+    "components": [],
+    "creatorID": 1644006,
+    "manualSave": false,
+    "model": {
+      "modelID": "683c5883775640011439288c"
+    },
+    "name": "Initial Version",
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "None",
+          "name": "None",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "6797c2110cfd6c00ccbedd9f",
+          "name": "No",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "I'm good",
+              "slots": []
+            },
+            {
+              "text": "Nope",
+              "slots": []
+            },
+            {
+              "text": "I think I'm good thanks",
+              "slots": []
+            },
+            {
+              "text": "Definitely not",
+              "slots": []
+            },
+            {
+              "text": "Nope",
+              "slots": []
+            },
+            {
+              "text": "Under no circumstances",
+              "slots": []
+            },
+            {
+              "text": "Not at all",
+              "slots": []
+            },
+            {
+              "text": "Nope, not at all",
+              "slots": []
+            },
+            {
+              "text": "No way",
+              "slots": []
+            },
+            {
+              "text": "By no means",
+              "slots": []
+            },
+            {
+              "text": "Not in the slightest",
+              "slots": []
+            },
+            {
+              "text": "No chance",
+              "slots": []
+            },
+            {
+              "text": "Absolutely not",
+              "slots": []
+            },
+            {
+              "text": "Not at all",
+              "slots": []
+            },
+            {
+              "text": "Negative",
+              "slots": []
+            },
+            {
+              "text": "Sorry, no",
+              "slots": []
+            },
+            {
+              "text": "Definitely not",
+              "slots": []
+            },
+            {
+              "text": "That's wrong",
+              "slots": []
+            },
+            {
+              "text": "Incorrect",
+              "slots": []
+            },
+            {
+              "text": "Nope",
+              "slots": []
+            },
+            {
+              "text": "No",
+              "slots": []
+            }
+          ],
+          "noteID": "vqsor00cr",
+          "description": "Trigger this intent then the user responds negatively"
+        },
+        {
+          "key": "6797c2660cfd6c00ccbeddd1",
+          "name": "Yes",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Definitely",
+              "slots": []
+            },
+            {
+              "text": "Indeed",
+              "slots": []
+            },
+            {
+              "text": "Of course",
+              "slots": []
+            },
+            {
+              "text": "Certainly",
+              "slots": []
+            },
+            {
+              "text": "Without question",
+              "slots": []
+            },
+            {
+              "text": "Sure",
+              "slots": []
+            },
+            {
+              "text": "Definitely",
+              "slots": []
+            },
+            {
+              "text": "You bet",
+              "slots": []
+            },
+            {
+              "text": "Without a doubt",
+              "slots": []
+            },
+            {
+              "text": "By all means",
+              "slots": []
+            },
+            {
+              "text": "Agreed",
+              "slots": []
+            },
+            {
+              "text": "Absolutely",
+              "slots": []
+            },
+            {
+              "text": "That's correct",
+              "slots": []
+            },
+            {
+              "text": "Indeed",
+              "slots": []
+            },
+            {
+              "text": "Affirmative",
+              "slots": []
+            },
+            {
+              "text": "You are right",
+              "slots": []
+            },
+            {
+              "text": "Correct",
+              "slots": []
+            },
+            {
+              "text": "Yep",
+              "slots": []
+            },
+            {
+              "text": "Yes",
+              "slots": []
+            }
+          ],
+          "noteID": "vqsos0092",
+          "description": "Trigger this intent when the user responds positively."
+        },
+        {
+          "key": "683c61ea5e930b4a978afe34",
+          "name": "call",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Real person",
+              "slots": []
+            },
+            {
+              "text": "no ai",
+              "slots": []
+            },
+            {
+              "text": "i want to talk",
+              "slots": []
+            },
+            {
+              "text": "Phone call",
+              "slots": []
+            },
+            {
+              "text": "I want to speak with a live representative",
+              "slots": []
+            },
+            {
+              "text": "Call someone now",
+              "slots": []
+            },
+            {
+              "text": "Get me on the line with someone",
+              "slots": []
+            },
+            {
+              "text": "No automation please",
+              "slots": []
+            },
+            {
+              "text": "I need to have a conversation",
+              "slots": []
+            },
+            {
+              "text": "connect me with a human",
+              "slots": []
+            },
+            {
+              "text": "reach out to someone",
+              "slots": []
+            },
+            {
+              "text": "dial a number",
+              "slots": []
+            },
+            {
+              "text": "need to make a phone call",
+              "slots": []
+            }
+          ],
+          "noteID": "vqsot00qd",
+          "description": "Trigger this when the user wants to talk to a real person"
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "en-US"
+        ],
+        "globalNoMatch": {
+          "type": "static",
+          "prompt": {
+            "content": [
+              {
+                "children": [
+                  {
+                    "text": "Sorry, I didn’t get that. Please try again."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "messageDelay": {
+          "durationMilliseconds": 500
+        },
+        "defaultVoice": "elevenlabs:eleven_turbo_v2_5:FGY2WhTYpPnrIDTdsKH5",
+        "deepgramASR": {
+          "silenceWaitMS": 10,
+          "punctuationWaitMS": 1000,
+          "partialWaitMS": 1500,
+          "interruptionWaitWords": 2,
+          "audioCue": null
+        }
+      },
+      "publishing": {
+        "avatar": "https://cdn.voiceflow.com/assets/logo.png",
+        "color": "#397DFF",
+        "description": "Hi, how can I help you today?",
+        "feedback": false,
+        "image": "https://cdn.voiceflow.com/assets/logo.png",
+        "persistence": "localStorage",
+        "position": "right",
+        "spacing": {
+          "side": 24,
+          "bottom": 24
+        },
+        "title": "Your AI agent",
+        "watermark": true,
+        "audioInterface": true
+      },
+      "platform": "webchat"
+    },
+    "programResources": {
+      "agents": {},
+      "prompts": {
+        "683c5ceefc420a46ebb363f3": {
+          "settings": {
+            "model": "gpt-4o-mini",
+            "useStructuredOutput": false,
+            "maxTokens": 256,
+            "temperature": 0.3
+          },
+          "system": "You are a customer support specialist who answers questions on Desi cats",
+          "messages": [
+            {
+              "role": "user",
+              "content": "{vf_memory}"
+            },
+            {
+              "role": "user",
+              "content": "Voiceflow AI Prompt: Desi Cat Vet Specialist\n\nPersona: You are a compassionate and knowledgeable \"Desi Cat Vet Specialist.\"\n\nGoal: Your primary goal is to provide accurate, concise, and culturally sensitive veterinary advice specifically for Desi (Indian subcontinent) cats.\n\nCapabilities:\n\nAnswer question {last_utterance}  from {chunks} \n\nStyle & Constraints:\n\nKeep all answers short, direct, and concise.\nMaintain a professional yet empathetic tone.\nFocus strictly on information relevant to Desi cats and their unique regional context.\nDo not offer diagnoses or prescribe treatments; always advise consulting a local veterinarian for specific medical conditions.\nExample Interaction Flow (Internal Reference):\n\nUser: \"What are common health problems for Desi cats?\"\n\nAI: \"Parasites, respiratory infections, malnutrition, trauma, and viral diseases (FIV/FeLV) are common.\"\n\nUser: \"Tell me about their diet.\"\n\nAI: \"High-quality commercial food is best. Homemade diets require vet nutritionist balancing. Ensure fresh water.\""
+            }
+          ]
+        }
+      },
+      "apiTools": {},
+      "messages": {
+        "683c28c55e930b4a978adedb": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Weclome to our veternary clinic. We only specialize and provide services to the desi cat breeds. "
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "What would you like to know?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "683c29b7fc420a46ebb36238": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Would you like to know anything else?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Is there anything else you would like to know?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Is there anything else you'd like to know?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Do you have any other questions?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Need more information on anything else?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "683c29245e930b4a978adf13": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "What would you like to know?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "683c295b5e930b4a978adf36": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "I'll connect you to a representative as i don't have a relevant answer for that at the moment. "
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Please schedule your slot:"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "683c2a14fc420a46ebb3623f": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "okay you can start a new chat if anything comes to mind"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "feel free to start a new chat if anything comes up"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "683c5b115e930b4a978afa98": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Please book a time from our calendar. We look forward to hearing from you soon."
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "683c57a25e930b4a978af938": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "<iframe width=\"100%\" height=\"500\"\r\nframeborder= \"0\" style=\"border.0\" title=\"Select a Date &amp; Time - Calendly\" src=\""
+                        },
+                        {
+                          "text": "{URL}"
+                        },
+                        {
+                          "text": "\"  allowfullscreen></iframe> "
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        }
+      },
+      "integrationTools": {}
+    },
+    "prototype": {
+      "type": "chat",
+      "data": {
+        "name": "Appointment setting demo",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "6797c2110cfd6c00ccbedd9f",
+            "name": "No",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "I'm good",
+                "slots": []
+              },
+              {
+                "text": "Nope",
+                "slots": []
+              },
+              {
+                "text": "I think I'm good thanks",
+                "slots": []
+              },
+              {
+                "text": "Definitely not",
+                "slots": []
+              },
+              {
+                "text": "Under no circumstances",
+                "slots": []
+              },
+              {
+                "text": "Not at all",
+                "slots": []
+              },
+              {
+                "text": "Nope, not at all",
+                "slots": []
+              },
+              {
+                "text": "No way",
+                "slots": []
+              },
+              {
+                "text": "By no means",
+                "slots": []
+              },
+              {
+                "text": "Not in the slightest",
+                "slots": []
+              },
+              {
+                "text": "No chance",
+                "slots": []
+              },
+              {
+                "text": "Absolutely not",
+                "slots": []
+              },
+              {
+                "text": "Negative",
+                "slots": []
+              },
+              {
+                "text": "Sorry, no",
+                "slots": []
+              },
+              {
+                "text": "That's wrong",
+                "slots": []
+              },
+              {
+                "text": "Incorrect",
+                "slots": []
+              },
+              {
+                "text": "No",
+                "slots": []
+              }
+            ],
+            "noteID": "vqsor00cr",
+            "description": "Trigger this intent then the user responds negatively"
+          },
+          {
+            "key": "6797c2660cfd6c00ccbeddd1",
+            "name": "Yes",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Definitely",
+                "slots": []
+              },
+              {
+                "text": "Indeed",
+                "slots": []
+              },
+              {
+                "text": "Of course",
+                "slots": []
+              },
+              {
+                "text": "Certainly",
+                "slots": []
+              },
+              {
+                "text": "Without question",
+                "slots": []
+              },
+              {
+                "text": "Sure",
+                "slots": []
+              },
+              {
+                "text": "You bet",
+                "slots": []
+              },
+              {
+                "text": "Without a doubt",
+                "slots": []
+              },
+              {
+                "text": "By all means",
+                "slots": []
+              },
+              {
+                "text": "Agreed",
+                "slots": []
+              },
+              {
+                "text": "Absolutely",
+                "slots": []
+              },
+              {
+                "text": "That's correct",
+                "slots": []
+              },
+              {
+                "text": "Affirmative",
+                "slots": []
+              },
+              {
+                "text": "You are right",
+                "slots": []
+              },
+              {
+                "text": "Correct",
+                "slots": []
+              },
+              {
+                "text": "Yep",
+                "slots": []
+              },
+              {
+                "text": "Yes",
+                "slots": []
+              }
+            ],
+            "noteID": "vqsos0092",
+            "description": "Trigger this intent when the user responds positively."
+          },
+          {
+            "key": "683c61ea5e930b4a978afe34",
+            "name": "call",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Real person",
+                "slots": []
+              },
+              {
+                "text": "no ai",
+                "slots": []
+              },
+              {
+                "text": "i want to talk",
+                "slots": []
+              },
+              {
+                "text": "Phone call",
+                "slots": []
+              },
+              {
+                "text": "I want to speak with a live representative",
+                "slots": []
+              },
+              {
+                "text": "Call someone now",
+                "slots": []
+              },
+              {
+                "text": "Get me on the line with someone",
+                "slots": []
+              },
+              {
+                "text": "No automation please",
+                "slots": []
+              },
+              {
+                "text": "I need to have a conversation",
+                "slots": []
+              },
+              {
+                "text": "connect me with a human",
+                "slots": []
+              },
+              {
+                "text": "reach out to someone",
+                "slots": []
+              },
+              {
+                "text": "dial a number",
+                "slots": []
+              },
+              {
+                "text": "need to make a phone call",
+                "slots": []
+              }
+            ],
+            "noteID": "vqsot00qd",
+            "description": "Trigger this when the user wants to talk to a real person"
+          },
+          {
+            "key": "None",
+            "name": "None",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "None"
+              }
+            ],
+            "noteID": null
+          }
+        ],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "diagramID": "64dbb6696a8fab0013dba194",
+            "storage": {},
+            "variables": {}
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "nonDraftResponsesMap": {},
+        "responseMessagesByDiscriminatorIDMap": {},
+        "responseDiscriminatorsByResponseIDMap": {},
+        "functionDefinitions": {},
+        "referencedResponseIDs": [
+          "683c28c55e930b4a978adedb",
+          "683c29245e930b4a978adf13",
+          "683c295b5e930b4a978adf36",
+          "683c29b7fc420a46ebb36238",
+          "683c2a14fc420a46ebb3623f",
+          "683c57a25e930b4a978af938",
+          "683c5b115e930b4a978afa98"
+        ],
+        "referencedAgentsIDs": [],
+        "referencedAPIToolIDs": [],
+        "referencedIntegrationToolIDs": [],
+        "slotsMap": {},
+        "platform": "webchat",
+        "products": {},
+        "extraSlots": [],
+        "interfaces": [],
+        "permissions": [],
+        "projectType": "chat",
+        "extraIntents": [],
+        "usedEventsSet": [],
+        "usedIntentsSet": [
+          "6797c2660cfd6c00ccbeddd1",
+          "6797c2110cfd6c00ccbedd9f",
+          "683c61ea5e930b4a978afe34"
+        ],
+        "goToIntentsSet": [],
+        "entitiesMap": {},
+        "variableMap": {},
+        "intentsMap": {},
+        "requiredEntitiesMap": {},
+        "eventsMap": {},
+        "cmsVariables": {
+          "URL": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "",
+            "defaultValue": null
+          },
+          "chunks": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "",
+            "defaultValue": null
+          },
+          "sessions": {
+            "isSystem": true,
+            "description": "The number of times a particular user has opened the app.",
+            "defaultValue": null
+          },
+          "user_id": {
+            "isSystem": true,
+            "description": "The user's unique ID.",
+            "defaultValue": null
+          },
+          "timestamp": {
+            "isSystem": true,
+            "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+            "defaultValue": null
+          },
+          "platform": {
+            "isSystem": true,
+            "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+            "defaultValue": null
+          },
+          "locale": {
+            "isSystem": true,
+            "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+            "defaultValue": null
+          },
+          "intent_confidence": {
+            "isSystem": true,
+            "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+            "defaultValue": null
+          },
+          "last_response": {
+            "isSystem": true,
+            "description": "The agent's last response (text/speak) in a string.",
+            "defaultValue": null
+          },
+          "last_event": {
+            "isSystem": true,
+            "description": "The object containing the last event that the user client has triggered.",
+            "defaultValue": null
+          },
+          "last_utterance": {
+            "isSystem": true,
+            "description": "The user's last utterance in a text string.",
+            "defaultValue": null
+          },
+          "vf_memory": {
+            "isSystem": true,
+            "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+            "defaultValue": null
+          }
+        },
+        "cmsEntities": {}
+      },
+      "settings": {
+        "brandImage": "https://cm4-production-assets.s3.amazonaws.com/1748788504696-whatsapp-image-2025-05-30-at-11.11.37_44869880.jpg",
+        "avatar": "https://cm4-production-assets.s3.amazonaws.com/1748788508604-whatsapp-image-2025-05-30-at-11.11.37_44869880.jpg",
+        "hasBranding": false
+      },
+      "platform": "webchat"
+    },
+    "settings": {
+      "memory": {
+        "turns": 25
+      },
+      "intentClassification": {
+        "type": "rag",
+        "params": {
+          "model": "claude-3.5-haiku",
+          "temperature": 0.1
+        },
+        "promptWrapper": null
+      },
+      "voice": {
+        "failureMessage": "We’re sorry, but the call cannot be completed at this time. Please try again later.",
+        "hasCallRecording": false,
+        "tts": {
+          "provider": "elevenlabs",
+          "voice": "FGY2WhTYpPnrIDTdsKH5",
+          "model": "eleven_turbo_v2_5",
+          "settings": {}
+        }
+      },
+      "globalNoMatch": {
+        "type": "static",
+        "prompt": [
+          {
+            "text": [
+              "Sorry, I didn’t get that. Please try again."
+            ]
+          }
+        ]
+      }
+    },
+    "topics": [
+      {
+        "type": "DIAGRAM",
+        "sourceID": "64dbb6696a8fab0013dba194"
+      }
+    ],
+    "variables": [
+      "URL",
+      "chunks",
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale",
+      "intent_confidence",
+      "last_response",
+      "last_event",
+      "last_utterance",
+      "vf_memory"
+    ],
+    "_id": "683c27df5e930b4a978ade9f",
+    "updatedAt": "2025-06-01T14:54:42.326Z",
+    "publishedAt": "2024-09-27T16:54:27.996Z",
+    "domains": [
+      {
+        "id": "cla06iyr900b206pkh8d4ap8n",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "64dbb6696a8fab0013dba194"
+        ],
+        "rootDiagramID": "64dbb6696a8fab0013dba194",
+        "updatedBy": 1644006,
+        "updatedAt": "2025-06-01T10:13:51.935Z"
+      }
+    ],
+    "projectID": "683c27df5e930b4a978ade9e",
+    "rootDiagramID": "64dbb6696a8fab0013dba194",
+    "templateDiagramID": "64dbb6696a8fab0013dba195"
+  },
+  "diagrams": {
+    "64dbb6696a8fab0013dba195": {
+      "name": "Template Diagram",
+      "type": "TEMPLATE",
+      "zoom": 100,
+      "nodes": {},
+      "offsetX": 0,
+      "offsetY": 0,
+      "modified": 1701833501,
+      "creatorID": 1644006,
+      "variables": [],
+      "menuItems": [],
+      "_id": "683c27df5e930b4a978adea1",
+      "diagramID": "64dbb6696a8fab0013dba195",
+      "versionID": "683c27df5e930b4a978ade9f"
+    },
+    "64dbb6696a8fab0013dba194": {
+      "name": "ROOT",
+      "type": "TOPIC",
+      "zoom": 136.13116646151994,
+      "nodes": {
+        "start00000000000000000000": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "683c28c5f730adf1d7bfe4bf",
+                  "id": "6032afcf359e8c14c06c0319",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -287.35,
+                          158.63
+                        ]
+                      },
+                      {
+                        "point": [
+                          -260.67,
+                          158.63
+                        ]
+                      },
+                      {
+                        "point": [
+                          -260.67,
+                          -25.67
+                        ]
+                      },
+                      {
+                        "point": [
+                          -233.99,
+                          -25.67
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "label": "Start"
+          },
+          "nodeID": "start00000000000000000000",
+          "coords": [
+            -351.6816735414138,
+            136.63119334963568
+          ]
+        },
+        "683c28c5f730adf1d7bfe4bf": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "683c28c55e930b4a978adedb",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "683c28c5f730adf1d7bfe4c0"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683c28c5f730adf1d7bfe4bf"
+        },
+        "683c28c5f730adf1d7bfe4c1": {
+          "type": "block",
+          "data": {
+            "name": "New Block 1",
+            "steps": [
+              "683c28c5f730adf1d7bfe4bf",
+              "683c28e1f730adf1d7bfe4c8"
+            ]
+          },
+          "nodeID": "683c28c5f730adf1d7bfe4c1",
+          "coords": [
+            -67.9875659500073,
+            -104.66818109771636
+          ]
+        },
+        "683c28e1f730adf1d7bfe4c8": {
+          "type": "buttons-v2",
+          "data": {
+            "name": "Buttons",
+            "items": [
+              {
+                "id": "cmbdicret006e357uethsyjps",
+                "label": [
+                  {
+                    "text": [
+                      "I want to learn more about the desi cat breeds"
+                    ]
+                  },
+                  {
+                    "text": [
+                      {
+                        "text": [
+                          ""
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": [
+                      "(their behaviors when sick, medical problems, vaccines or even general questions etc.)"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cmbdickvm0062357uh7xnsm5v",
+                "label": [
+                  {
+                    "text": [
+                      "I want to schedule a call"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "listenForOtherTriggers": true,
+            "portsV2": {
+              "byKey": {
+                "cmbdickvm0062357uh7xnsm5v": {
+                  "id": "683c28e8f730adf1d7bfe4cb",
+                  "target": "683c56fff730adf1d7bfe5db",
+                  "type": "",
+                  "data": {}
+                },
+                "cmbdicret006e357uethsyjps": {
+                  "id": "683c28f0f730adf1d7bfe4cd",
+                  "target": "683c2924f730adf1d7bfe4d8",
+                  "type": "",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683c28e1f730adf1d7bfe4c8"
+        },
+        "683c2924f730adf1d7bfe4d8": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "683c29245e930b4a978adf13",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "683c2924f730adf1d7bfe4d9"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683c2924f730adf1d7bfe4d8"
+        },
+        "683c2924f730adf1d7bfe4da": {
+          "type": "block",
+          "data": {
+            "name": "New Block 2",
+            "steps": [
+              "683c2924f730adf1d7bfe4d8",
+              "683c2933f730adf1d7bfe4e1"
+            ]
+          },
+          "nodeID": "683c2924f730adf1d7bfe4da",
+          "coords": [
+            477.6889510599423,
+            -256.6292338078438
+          ]
+        },
+        "683c2933f730adf1d7bfe4e1": {
+          "type": "capture-v3",
+          "data": {
+            "name": "Capture",
+            "capture": {
+              "type": "user-reply",
+              "variableID": "last_utterance"
+            },
+            "listenForOtherTriggers": false,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "683c293ef730adf1d7bfe4e7",
+                  "id": "683c2933f730adf1d7bfe4e2",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          643.69,
+                          -109.96
+                        ]
+                      },
+                      {
+                        "point": [
+                          688.3,
+                          -109.96
+                        ]
+                      },
+                      {
+                        "point": [
+                          688.3,
+                          -864.84
+                        ]
+                      },
+                      {
+                        "point": [
+                          664.3,
+                          -864.84
+                        ],
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683c2933f730adf1d7bfe4e1"
+        },
+        "683c293ef730adf1d7bfe4e7": {
+          "type": "kb-search",
+          "data": {
+            "name": "",
+            "question": [
+              {
+                "text": [
+                  "",
+                  {
+                    "variableID": "last_utterance"
+                  },
+                  " "
+                ]
+              }
+            ],
+            "maxChunks": 3,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "683c5ceaf730adf1d7bfe604",
+                  "id": "683c293ef730adf1d7bfe4e8",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          664.3,
+                          -864.59
+                        ]
+                      },
+                      {
+                        "point": [
+                          743.85,
+                          -864.59
+                        ]
+                      },
+                      {
+                        "point": [
+                          743.85,
+                          -563.46
+                        ]
+                      },
+                      {
+                        "point": [
+                          823.41,
+                          -563.46
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "id": "683c294df730adf1d7bfe4f0",
+                  "target": "683c295bf730adf1d7bfe4f2",
+                  "type": "else",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          664.3,
+                          -810.34
+                        ]
+                      },
+                      {
+                        "point": [
+                          931.12,
+                          -810.34
+                        ]
+                      },
+                      {
+                        "point": [
+                          931.12,
+                          -124.41
+                        ]
+                      },
+                      {
+                        "point": [
+                          1197.94,
+                          -124.41
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "noMatch": {
+              "path": true,
+              "pathLabel": "Not found",
+              "repromptID": null
+            },
+            "noMatchThreshold": 10,
+            "variableID": "683c5dd45e930b4a978afbc9"
+          },
+          "nodeID": "683c293ef730adf1d7bfe4e7"
+        },
+        "683c293ef730adf1d7bfe4e9": {
+          "type": "block",
+          "data": {
+            "name": "kno",
+            "steps": [
+              "683c293ef730adf1d7bfe4e7"
+            ],
+            "color": "#5b9fd7"
+          },
+          "nodeID": "683c293ef730adf1d7bfe4e9",
+          "coords": [
+            498.29805505706463,
+            -943.8429380985398
+          ]
+        },
+        "683c295bf730adf1d7bfe4f2": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "683c295b5e930b4a978adf36",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "683c56fff730adf1d7bfe5dd",
+                  "id": "683c295bf730adf1d7bfe4f3",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683c295bf730adf1d7bfe4f2"
+        },
+        "683c295bf730adf1d7bfe4f4": {
+          "type": "block",
+          "data": {
+            "name": "New Block 4",
+            "steps": [
+              "683c295bf730adf1d7bfe4f2"
+            ]
+          },
+          "nodeID": "683c295bf730adf1d7bfe4f4",
+          "coords": [
+            1363.9448358659422,
+            -203.41035298720686
+          ]
+        },
+        "683c29b7f730adf1d7bfe4fc": {
+          "type": "block",
+          "data": {
+            "name": "New Block 5",
+            "color": "",
+            "steps": [
+              "683c29b7f730adf1d7bfe4fe",
+              "683c29b7f730adf1d7bfe501"
+            ]
+          },
+          "nodeID": "683c29b7f730adf1d7bfe4fc",
+          "coords": [
+            1445.9333979284854,
+            -634.4962258436694
+          ]
+        },
+        "683c29b7f730adf1d7bfe4fe": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "683c29b7fc420a46ebb36238",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "683c29b7f730adf1d7bfe4ff",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          85.29067753859385,
+                          -744.1121372503928
+                        ]
+                      },
+                      {
+                        "point": [
+                          170.15067753859375,
+                          -744.1121372503928
+                        ]
+                      },
+                      {
+                        "point": [
+                          170.15067753859375,
+                          -934.1521372503928
+                        ]
+                      },
+                      {
+                        "point": [
+                          255.01067753859365,
+                          -934.1521372503928
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683c29b7f730adf1d7bfe4fe"
+        },
+        "683c29b7f730adf1d7bfe501": {
+          "type": "choice-v2",
+          "data": {
+            "name": "Choice",
+            "items": [
+              {
+                "id": "cmbcu4oiu00bv357v16tnkehx",
+                "intentID": "6797c2660cfd6c00ccbeddd1",
+                "rules": [],
+                "button": {
+                  "label": [
+                    {
+                      "text": [
+                        "Yes"
+                      ]
+                    }
+                  ]
+                },
+                "automaticReprompt": null
+              },
+              {
+                "id": "cmbcu4sq400c7357va9vpipe7",
+                "intentID": "6797c2110cfd6c00ccbedd9f",
+                "rules": [],
+                "button": {
+                  "label": [
+                    {
+                      "text": [
+                        "No"
+                      ]
+                    }
+                  ]
+                },
+                "automaticReprompt": null
+              }
+            ],
+            "listenForOtherTriggers": true,
+            "portsV2": {
+              "byKey": {
+                "cmbcu4oiu00bv357v16tnkehx": {
+                  "type": "",
+                  "target": "683c29d1f730adf1d7bfe50d",
+                  "id": "683c29b7f730adf1d7bfe502",
+                  "data": {}
+                },
+                "cmbcu4sq400c7357va9vpipe7": {
+                  "type": "",
+                  "target": "683c2a15f730adf1d7bfe519",
+                  "id": "683c29b7f730adf1d7bfe503",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683c29b7f730adf1d7bfe501"
+        },
+        "683c29d1f730adf1d7bfe50d": {
+          "type": "capture-v3",
+          "data": {
+            "name": "Capture",
+            "capture": {
+              "type": "user-reply",
+              "variableID": "last_utterance"
+            },
+            "listenForOtherTriggers": false,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "683c293ef730adf1d7bfe4e9",
+                  "id": "683c29d1f730adf1d7bfe50e",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1817.72,
+                          -628.01
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          1240.51,
+                          -628.01
+                        ]
+                      },
+                      {
+                        "point": [
+                          1240.51,
+                          -916.84
+                        ]
+                      },
+                      {
+                        "point": [
+                          663.3,
+                          -916.84
+                        ],
+                        "reversed": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683c29d1f730adf1d7bfe50d"
+        },
+        "683c29d1f730adf1d7bfe50f": {
+          "type": "block",
+          "data": {
+            "name": "New Block 6",
+            "steps": [
+              "683c29d1f730adf1d7bfe50d"
+            ]
+          },
+          "nodeID": "683c29d1f730adf1d7bfe50f",
+          "coords": [
+            1983.724193589658,
+            -714.6746712905498
+          ]
+        },
+        "683c2a15f730adf1d7bfe519": {
+          "type": "block",
+          "data": {
+            "name": "New Block 7",
+            "color": "",
+            "steps": [
+              "683c2a15f730adf1d7bfe51b"
+            ]
+          },
+          "nodeID": "683c2a15f730adf1d7bfe519",
+          "coords": [
+            1842.1643960599054,
+            -326.990822742145
+          ]
+        },
+        "683c2a15f730adf1d7bfe51b": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "683c2a14fc420a46ebb3623f",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "683c2a1cf730adf1d7bfe523",
+                  "id": "683c2a15f730adf1d7bfe51c",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683c2a15f730adf1d7bfe51b"
+        },
+        "683c2a1cf730adf1d7bfe523": {
+          "type": "exit",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683c2a1cf730adf1d7bfe523"
+        },
+        "683c2a1cf730adf1d7bfe524": {
+          "type": "block",
+          "data": {
+            "name": "New Block 8",
+            "steps": [
+              "683c2a1cf730adf1d7bfe523"
+            ]
+          },
+          "nodeID": "683c2a1cf730adf1d7bfe524",
+          "coords": [
+            2291.723889307917,
+            -292.32852536554594
+          ]
+        },
+        "683c56fff730adf1d7bfe5db": {
+          "type": "set-v3",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmbdpdj9100si357ut1rvmkco",
+                "type": "script",
+                "label": null,
+                "value": [
+                  "\"https://calendly.com/cyntech-co/ai-booking-demo\""
+                ],
+                "variableID": "683c57085e930b4a978af8f2"
+              }
+            ],
+            "label": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "683c57a2f730adf1d7bfe5e5",
+                  "id": "683c56fff730adf1d7bfe5dc",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "parallelExecution": false
+          },
+          "nodeID": "683c56fff730adf1d7bfe5db"
+        },
+        "683c56fff730adf1d7bfe5dd": {
+          "type": "block",
+          "data": {
+            "name": "New Block 9",
+            "steps": [
+              "683c56fff730adf1d7bfe5db"
+            ]
+          },
+          "nodeID": "683c56fff730adf1d7bfe5dd",
+          "coords": [
+            508.6327518998668,
+            188.04189888388694
+          ]
+        },
+        "683c57a2f730adf1d7bfe5e5": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "683c57a25e930b4a978af938",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "683c5b11f730adf1d7bfe5f0",
+                  "id": "683c57a2f730adf1d7bfe5e6",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683c57a2f730adf1d7bfe5e5"
+        },
+        "683c57a2f730adf1d7bfe5e7": {
+          "type": "block",
+          "data": {
+            "name": "New Block 10",
+            "steps": [
+              "683c57a2f730adf1d7bfe5e5"
+            ]
+          },
+          "nodeID": "683c57a2f730adf1d7bfe5e7",
+          "coords": [
+            945.3291434578551,
+            97.00960274332385
+          ]
+        },
+        "683c5b11f730adf1d7bfe5f0": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "683c5b115e930b4a978afa98",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "683c5b11f730adf1d7bfe5f1"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683c5b11f730adf1d7bfe5f0"
+        },
+        "683c5b11f730adf1d7bfe5f2": {
+          "type": "block",
+          "data": {
+            "name": "New Block 11",
+            "steps": [
+              "683c5b11f730adf1d7bfe5f0",
+              "683c5b46f730adf1d7bfe5f9"
+            ]
+          },
+          "nodeID": "683c5b11f730adf1d7bfe5f2",
+          "coords": [
+            1491.579143457855,
+            154.19710274332382
+          ]
+        },
+        "683c5b46f730adf1d7bfe5f9": {
+          "type": "buttons-v2",
+          "data": {
+            "name": "Buttons",
+            "items": [
+              {
+                "id": "cmbdq0zqm013a357ukqhrwcr2",
+                "label": [
+                  {
+                    "text": [
+                      "I have more questions"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cmbdq1ab5013m357ub5auagvl",
+                "label": [
+                  {
+                    "text": [
+                      "Goodbye"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "listenForOtherTriggers": true,
+            "portsV2": {
+              "byKey": {
+                "cmbdq0zqm013a357ukqhrwcr2": {
+                  "id": "683c5b48f730adf1d7bfe5fc",
+                  "target": "683c2924f730adf1d7bfe4da",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1325.58,
+                          329.45
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          984.13,
+                          329.45
+                        ]
+                      },
+                      {
+                        "point": [
+                          984.13,
+                          -229.63
+                        ]
+                      },
+                      {
+                        "point": [
+                          642.69,
+                          -229.63
+                        ],
+                        "reversed": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "cmbdq1ab5013m357ub5auagvl": {
+                  "id": "683c5b56f730adf1d7bfe5fe",
+                  "target": "683c2a1cf730adf1d7bfe524",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1657.58,
+                          383.7
+                        ]
+                      },
+                      {
+                        "point": [
+                          1892.15,
+                          383.7
+                        ]
+                      },
+                      {
+                        "point": [
+                          1892.15,
+                          -265.33
+                        ]
+                      },
+                      {
+                        "point": [
+                          2126.72,
+                          -265.33
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683c5b46f730adf1d7bfe5f9",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "683c5ceaf730adf1d7bfe604": {
+          "type": "response-prompt",
+          "data": {
+            "name": "Untitled prompt",
+            "promptID": "683c5ceefc420a46ebb363f3",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "683c29b7f730adf1d7bfe4fc",
+                  "id": "683c5ceaf730adf1d7bfe605",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1155.41,
+                          -563.21
+                        ]
+                      },
+                      {
+                        "point": [
+                          1218.17,
+                          -563.21
+                        ]
+                      },
+                      {
+                        "point": [
+                          1218.17,
+                          -607.5
+                        ]
+                      },
+                      {
+                        "point": [
+                          1280.93,
+                          -607.5
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683c5ceaf730adf1d7bfe604"
+        },
+        "683c5ceaf730adf1d7bfe606": {
+          "type": "block",
+          "data": {
+            "name": "New Block 12",
+            "steps": [
+              "683c5ceaf730adf1d7bfe604"
+            ]
+          },
+          "nodeID": "683c5ceaf730adf1d7bfe606",
+          "coords": [
+            989.4086495988124,
+            -642.4643507907859
+          ]
+        },
+        "683c6199f730adf1d7bfe60f": {
+          "type": "trigger",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmbdr1erb026i357uz6yefmfn",
+                "type": "intent",
+                "resourceID": "683c61ea5e930b4a978afe34",
+                "settings": {
+                  "local": false
+                }
+              }
+            ],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "683c56fff730adf1d7bfe5dd",
+                  "id": "683c6199f730adf1d7bfe610",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "683c6199f730adf1d7bfe60f"
+        },
+        "683c6199f730adf1d7bfe611": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "683c6199f730adf1d7bfe60f"
+            ]
+          },
+          "nodeID": "683c6199f730adf1d7bfe611",
+          "coords": [
+            1897.4604268998385,
+            103.31882943009032
+          ]
+        }
+      },
+      "offsetX": 841.3453388331311,
+      "offsetY": 190.69504532029146,
+      "modified": 1701833501,
+      "creatorID": 1644006,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        }
+      ],
+      "menuNodeIDs": [],
+      "intentStepIDs": [],
+      "_id": "683c27df5e930b4a978adea2",
+      "diagramID": "64dbb6696a8fab0013dba194",
+      "versionID": "683c27df5e930b4a978ade9f"
+    }
+  },
+  "flows": [],
+  "entities": [],
+  "entityVariants": [],
+  "intents": [
+    {
+      "id": "None",
+      "name": "None",
+      "createdByID": 1644006,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-06-01T10:13:52.000Z",
+      "updatedAt": "2025-06-01T10:13:52.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedd9f",
+      "name": "No",
+      "createdByID": 1644006,
+      "folderID": null,
+      "description": "Trigger this intent then the user responds negatively",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-06-01T10:13:52.000Z",
+      "updatedAt": "2025-06-01T10:13:52.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd1",
+      "name": "Yes",
+      "createdByID": 1644006,
+      "folderID": null,
+      "description": "Trigger this intent when the user responds positively.",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-06-01T10:13:52.000Z",
+      "updatedAt": "2025-06-01T10:13:52.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "683c61ea5e930b4a978afe34",
+      "name": "call",
+      "createdByID": 1644006,
+      "folderID": null,
+      "description": "Trigger this when the user wants to talk to a real person",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-06-01T14:21:31.000Z",
+      "updatedAt": "2025-06-01T14:21:31.000Z",
+      "updatedByID": 1644006
+    }
+  ],
+  "utterances": [
+    {
+      "id": "683c61ea5e930b4a978afe35",
+      "text": [
+        {
+          "text": [
+            "Real person"
+          ]
+        }
+      ],
+      "intentID": "683c61ea5e930b4a978afe34",
+      "language": "en-us",
+      "createdAt": "2025-06-01T14:21:31.000Z"
+    },
+    {
+      "id": "683c61ea5e930b4a978afe36",
+      "text": [
+        {
+          "text": [
+            "no ai"
+          ]
+        }
+      ],
+      "intentID": "683c61ea5e930b4a978afe34",
+      "language": "en-us",
+      "createdAt": "2025-06-01T14:21:31.000Z"
+    },
+    {
+      "id": "683c61ea5e930b4a978afe37",
+      "text": [
+        {
+          "text": [
+            "i want to talk"
+          ]
+        }
+      ],
+      "intentID": "683c61ea5e930b4a978afe34",
+      "language": "en-us",
+      "createdAt": "2025-06-01T14:21:31.000Z"
+    },
+    {
+      "id": "683c61ea5e930b4a978afe38",
+      "text": [
+        {
+          "text": [
+            "Phone call"
+          ]
+        }
+      ],
+      "intentID": "683c61ea5e930b4a978afe34",
+      "language": "en-us",
+      "createdAt": "2025-06-01T14:21:31.000Z"
+    },
+    {
+      "id": "683c61ea5e930b4a978afe39",
+      "text": [
+        {
+          "text": [
+            "I want to speak with a live representative"
+          ]
+        }
+      ],
+      "intentID": "683c61ea5e930b4a978afe34",
+      "language": "en-us",
+      "createdAt": "2025-06-01T14:21:31.000Z"
+    },
+    {
+      "id": "683c61ea5e930b4a978afe3a",
+      "text": [
+        {
+          "text": [
+            "Call someone now"
+          ]
+        }
+      ],
+      "intentID": "683c61ea5e930b4a978afe34",
+      "language": "en-us",
+      "createdAt": "2025-06-01T14:21:31.000Z"
+    },
+    {
+      "id": "683c61ea5e930b4a978afe3b",
+      "text": [
+        {
+          "text": [
+            "Get me on the line with someone"
+          ]
+        }
+      ],
+      "intentID": "683c61ea5e930b4a978afe34",
+      "language": "en-us",
+      "createdAt": "2025-06-01T14:21:31.000Z"
+    },
+    {
+      "id": "683c61ea5e930b4a978afe3c",
+      "text": [
+        {
+          "text": [
+            "No automation please"
+          ]
+        }
+      ],
+      "intentID": "683c61ea5e930b4a978afe34",
+      "language": "en-us",
+      "createdAt": "2025-06-01T14:21:31.000Z"
+    },
+    {
+      "id": "683c61ea5e930b4a978afe3d",
+      "text": [
+        {
+          "text": [
+            "I need to have a conversation"
+          ]
+        }
+      ],
+      "intentID": "683c61ea5e930b4a978afe34",
+      "language": "en-us",
+      "createdAt": "2025-06-01T14:21:31.000Z"
+    },
+    {
+      "id": "683c61ea5e930b4a978afe3e",
+      "text": [
+        {
+          "text": [
+            "connect me with a human"
+          ]
+        }
+      ],
+      "intentID": "683c61ea5e930b4a978afe34",
+      "language": "en-us",
+      "createdAt": "2025-06-01T14:21:31.000Z"
+    },
+    {
+      "id": "683c61ea5e930b4a978afe3f",
+      "text": [
+        {
+          "text": [
+            "reach out to someone"
+          ]
+        }
+      ],
+      "intentID": "683c61ea5e930b4a978afe34",
+      "language": "en-us",
+      "createdAt": "2025-06-01T14:21:31.000Z"
+    },
+    {
+      "id": "683c61ea5e930b4a978afe40",
+      "text": [
+        {
+          "text": [
+            "dial a number"
+          ]
+        }
+      ],
+      "intentID": "683c61ea5e930b4a978afe34",
+      "language": "en-us",
+      "createdAt": "2025-06-01T14:21:31.000Z"
+    },
+    {
+      "id": "683c61ea5e930b4a978afe41",
+      "text": [
+        {
+          "text": [
+            "need to make a phone call"
+          ]
+        }
+      ],
+      "intentID": "683c61ea5e930b4a978afe34",
+      "language": "en-us",
+      "createdAt": "2025-06-01T14:21:31.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda0",
+      "text": [
+        {
+          "text": [
+            "I'm good"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda1",
+      "text": [
+        {
+          "text": [
+            "Nope"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda2",
+      "text": [
+        {
+          "text": [
+            "I think I'm good thanks"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda3",
+      "text": [
+        {
+          "text": [
+            "Definitely not"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda4",
+      "text": [
+        {
+          "text": [
+            "Nope"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda5",
+      "text": [
+        {
+          "text": [
+            "Under no circumstances"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda6",
+      "text": [
+        {
+          "text": [
+            "Not at all"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda7",
+      "text": [
+        {
+          "text": [
+            "Nope, not at all"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda8",
+      "text": [
+        {
+          "text": [
+            "No way"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda9",
+      "text": [
+        {
+          "text": [
+            "By no means"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddaa",
+      "text": [
+        {
+          "text": [
+            "Not in the slightest"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddab",
+      "text": [
+        {
+          "text": [
+            "No chance"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddac",
+      "text": [
+        {
+          "text": [
+            "Absolutely not"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddad",
+      "text": [
+        {
+          "text": [
+            "Not at all"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddae",
+      "text": [
+        {
+          "text": [
+            "Negative"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddaf",
+      "text": [
+        {
+          "text": [
+            "Sorry, no"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb0",
+      "text": [
+        {
+          "text": [
+            "Definitely not"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb1",
+      "text": [
+        {
+          "text": [
+            "That's wrong"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb2",
+      "text": [
+        {
+          "text": [
+            "Incorrect"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb3",
+      "text": [
+        {
+          "text": [
+            "Nope"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb4",
+      "text": [
+        {
+          "text": [
+            "No"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd2",
+      "text": [
+        {
+          "text": [
+            "Definitely"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd3",
+      "text": [
+        {
+          "text": [
+            "Indeed"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd4",
+      "text": [
+        {
+          "text": [
+            "Of course"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd5",
+      "text": [
+        {
+          "text": [
+            "Certainly"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd6",
+      "text": [
+        {
+          "text": [
+            "Without question"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd7",
+      "text": [
+        {
+          "text": [
+            "Sure"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd8",
+      "text": [
+        {
+          "text": [
+            "Definitely"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd9",
+      "text": [
+        {
+          "text": [
+            "You bet"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddda",
+      "text": [
+        {
+          "text": [
+            "Without a doubt"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddb",
+      "text": [
+        {
+          "text": [
+            "By all means"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddc",
+      "text": [
+        {
+          "text": [
+            "Agreed"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddd",
+      "text": [
+        {
+          "text": [
+            "Absolutely"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddde",
+      "text": [
+        {
+          "text": [
+            "That's correct"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddf",
+      "text": [
+        {
+          "text": [
+            "Indeed"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedde0",
+      "text": [
+        {
+          "text": [
+            "Affirmative"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedde1",
+      "text": [
+        {
+          "text": [
+            "You are right"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c3060cfd6c00ccbede5c",
+      "text": [
+        {
+          "text": [
+            "Correct"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c3080cfd6c00ccbede5d",
+      "text": [
+        {
+          "text": [
+            "Yep"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    },
+    {
+      "id": "6797c3090cfd6c00ccbede5e",
+      "text": [
+        {
+          "text": [
+            "Yes"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-01T10:13:52.000Z"
+    }
+  ],
+  "requiredEntities": [],
+  "folders": [],
+  "responses": [
+    {
+      "id": "683c28c55e930b4a978adedb",
+      "name": "",
+      "createdByID": 1644006,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-06-01T10:17:41.000Z",
+      "updatedAt": "2025-06-01T10:18:05.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "683c29b7fc420a46ebb36238",
+      "name": "",
+      "createdByID": 1644006,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-06-01T10:21:43.000Z",
+      "updatedAt": "2025-06-01T10:21:43.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "683c29245e930b4a978adf13",
+      "name": "",
+      "createdByID": 1644006,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-06-01T10:19:16.000Z",
+      "updatedAt": "2025-06-01T10:19:30.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "683c295b5e930b4a978adf36",
+      "name": "",
+      "createdByID": 1644006,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-06-01T10:20:11.000Z",
+      "updatedAt": "2025-06-01T10:20:44.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "683c2a14fc420a46ebb3623f",
+      "name": "",
+      "createdByID": 1644006,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-06-01T10:23:17.000Z",
+      "updatedAt": "2025-06-01T10:23:17.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "683c5b115e930b4a978afa98",
+      "name": "",
+      "createdByID": 1644006,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-06-01T13:52:18.000Z",
+      "updatedAt": "2025-06-01T13:53:06.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "683c57a25e930b4a978af938",
+      "name": "",
+      "createdByID": 1644006,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-06-01T13:37:39.000Z",
+      "updatedAt": "2025-06-01T13:37:44.000Z",
+      "updatedByID": 1644006
+    }
+  ],
+  "responseMessages": [
+    {
+      "id": "683c28c55e930b4a978adedd",
+      "discriminatorID": "683c28c55e930b4a978adedc",
+      "text": [
+        {
+          "text": [
+            "Weclome to our veternary clinic. We only specialize and provide services to the desi cat breeds. "
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "text": [
+            "What would you like to know?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-01T10:17:41.000Z"
+    },
+    {
+      "id": "683c29b7fc420a46ebb3623a",
+      "discriminatorID": "683c29b7fc420a46ebb36239",
+      "text": [
+        {
+          "text": [
+            "Would you like to know anything else?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-01T10:21:43.000Z"
+    },
+    {
+      "id": "683c29b7fc420a46ebb3623b",
+      "discriminatorID": "683c29b7fc420a46ebb36239",
+      "text": [
+        {
+          "text": [
+            "Is there anything else you would like to know?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-01T10:21:43.000Z"
+    },
+    {
+      "id": "683c29b7fc420a46ebb3623c",
+      "discriminatorID": "683c29b7fc420a46ebb36239",
+      "text": [
+        {
+          "text": [
+            "Is there anything else you'd like to know?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-01T10:21:43.000Z"
+    },
+    {
+      "id": "683c29b7fc420a46ebb3623d",
+      "discriminatorID": "683c29b7fc420a46ebb36239",
+      "text": [
+        {
+          "text": [
+            "Do you have any other questions?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-01T10:21:43.000Z"
+    },
+    {
+      "id": "683c29b7fc420a46ebb3623e",
+      "discriminatorID": "683c29b7fc420a46ebb36239",
+      "text": [
+        {
+          "text": [
+            "Need more information on anything else?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-01T10:21:43.000Z"
+    },
+    {
+      "id": "683c29245e930b4a978adf15",
+      "discriminatorID": "683c29245e930b4a978adf14",
+      "text": [
+        {
+          "text": [
+            "What would you like to know?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-01T10:19:16.000Z"
+    },
+    {
+      "id": "683c295b5e930b4a978adf38",
+      "discriminatorID": "683c295b5e930b4a978adf37",
+      "text": [
+        {
+          "text": [
+            "I'll connect you to a representative as i don't have a relevant answer for that at the moment. "
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "text": [
+            "Please schedule your slot:"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-01T10:20:11.000Z"
+    },
+    {
+      "id": "683c2a14fc420a46ebb36241",
+      "discriminatorID": "683c2a14fc420a46ebb36240",
+      "text": [
+        {
+          "text": [
+            "okay you can start a new chat if anything comes to mind"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-01T10:23:17.000Z"
+    },
+    {
+      "id": "683c2a14fc420a46ebb36242",
+      "discriminatorID": "683c2a14fc420a46ebb36240",
+      "text": [
+        {
+          "text": [
+            "feel free to start a new chat if anything comes up"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-01T10:23:17.000Z"
+    },
+    {
+      "id": "683c57a25e930b4a978af93a",
+      "discriminatorID": "683c57a25e930b4a978af939",
+      "text": [
+        {
+          "text": [
+            "<iframe width=\"100%\" height=\"500\"\r\nframeborder= \"0\" style=\"border.0\" title=\"Select a Date &amp; Time - Calendly\" src=\"",
+            {
+              "variableID": "683c57085e930b4a978af8f2"
+            },
+            "\"  allowfullscreen></iframe> "
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-01T13:37:39.000Z"
+    },
+    {
+      "id": "683c5b115e930b4a978afa9a",
+      "discriminatorID": "683c5b115e930b4a978afa99",
+      "text": [
+        {
+          "text": [
+            "Please book a time from our calendar. We look forward to hearing from you soon."
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-01T13:52:18.000Z"
+    }
+  ],
+  "responseDiscriminators": [
+    {
+      "id": "683c57a25e930b4a978af939",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "683c57a25e930b4a978af938",
+      "variantOrder": [
+        "683c57a25e930b4a978af93a"
+      ],
+      "createdAt": "2025-06-01T13:37:39.000Z"
+    },
+    {
+      "id": "683c5b115e930b4a978afa99",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "683c5b115e930b4a978afa98",
+      "variantOrder": [
+        "683c5b115e930b4a978afa9a"
+      ],
+      "createdAt": "2025-06-01T13:52:18.000Z"
+    },
+    {
+      "id": "683c28c55e930b4a978adedc",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "683c28c55e930b4a978adedb",
+      "variantOrder": [
+        "683c28c55e930b4a978adedd"
+      ],
+      "createdAt": "2025-06-01T10:17:41.000Z"
+    },
+    {
+      "id": "683c29b7fc420a46ebb36239",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "683c29b7fc420a46ebb36238",
+      "variantOrder": [
+        "683c29b7fc420a46ebb3623a",
+        "683c29b7fc420a46ebb3623b",
+        "683c29b7fc420a46ebb3623c",
+        "683c29b7fc420a46ebb3623d",
+        "683c29b7fc420a46ebb3623e"
+      ],
+      "createdAt": "2025-06-01T10:21:43.000Z"
+    },
+    {
+      "id": "683c29245e930b4a978adf14",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "683c29245e930b4a978adf13",
+      "variantOrder": [
+        "683c29245e930b4a978adf15"
+      ],
+      "createdAt": "2025-06-01T10:19:16.000Z"
+    },
+    {
+      "id": "683c295b5e930b4a978adf37",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "683c295b5e930b4a978adf36",
+      "variantOrder": [
+        "683c295b5e930b4a978adf38"
+      ],
+      "createdAt": "2025-06-01T10:20:11.000Z"
+    },
+    {
+      "id": "683c2a14fc420a46ebb36240",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "683c2a14fc420a46ebb3623f",
+      "variantOrder": [
+        "683c2a14fc420a46ebb36241",
+        "683c2a14fc420a46ebb36242"
+      ],
+      "createdAt": "2025-06-01T10:23:17.000Z"
+    }
+  ],
+  "variables": [
+    {
+      "id": "683c57085e930b4a978af8f2",
+      "name": "URL",
+      "createdByID": 1644006,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2025-06-01T13:35:04.000Z",
+      "updatedAt": "2025-06-01T13:50:10.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "683c5dd45e930b4a978afbc9",
+      "name": "chunks",
+      "createdByID": 1644006,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2025-06-01T14:04:04.000Z",
+      "updatedAt": "2025-06-01T14:04:04.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "sessions",
+      "name": "sessions",
+      "createdByID": 1644006,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The number of times a particular user has opened the app.",
+      "defaultValue": null,
+      "createdAt": "2025-06-01T10:13:52.000Z",
+      "updatedAt": "2025-06-01T10:13:52.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "user_id",
+      "name": "user_id",
+      "createdByID": 1644006,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's unique ID.",
+      "defaultValue": null,
+      "createdAt": "2025-06-01T10:13:52.000Z",
+      "updatedAt": "2025-06-01T10:13:52.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "timestamp",
+      "name": "timestamp",
+      "createdByID": 1644006,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+      "defaultValue": null,
+      "createdAt": "2025-06-01T10:13:52.000Z",
+      "updatedAt": "2025-06-01T10:13:52.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "platform",
+      "name": "platform",
+      "createdByID": 1644006,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+      "defaultValue": null,
+      "createdAt": "2025-06-01T10:13:52.000Z",
+      "updatedAt": "2025-06-01T10:13:52.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "locale",
+      "name": "locale",
+      "createdByID": 1644006,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+      "defaultValue": null,
+      "createdAt": "2025-06-01T10:13:52.000Z",
+      "updatedAt": "2025-06-01T10:13:52.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "intent_confidence",
+      "name": "intent_confidence",
+      "createdByID": 1644006,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+      "defaultValue": null,
+      "createdAt": "2025-06-01T10:13:52.000Z",
+      "updatedAt": "2025-06-01T10:13:52.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "last_response",
+      "name": "last_response",
+      "createdByID": 1644006,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The agent's last response (text/speak) in a string.",
+      "defaultValue": null,
+      "createdAt": "2025-06-01T10:13:52.000Z",
+      "updatedAt": "2025-06-01T10:13:52.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "last_event",
+      "name": "last_event",
+      "createdByID": 1644006,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "any",
+      "description": "The object containing the last event that the user client has triggered.",
+      "defaultValue": null,
+      "createdAt": "2025-06-01T10:13:52.000Z",
+      "updatedAt": "2025-06-01T10:13:52.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "last_utterance",
+      "name": "last_utterance",
+      "createdByID": 1644006,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's last utterance in a text string.",
+      "defaultValue": null,
+      "createdAt": "2025-06-01T10:13:52.000Z",
+      "updatedAt": "2025-06-01T10:13:52.000Z",
+      "updatedByID": 1644006
+    },
+    {
+      "id": "vf_memory",
+      "name": "vf_memory",
+      "createdByID": 1644006,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+      "defaultValue": null,
+      "createdAt": "2025-06-01T10:13:52.000Z",
+      "updatedAt": "2025-06-01T10:13:52.000Z",
+      "updatedByID": 1644006
+    }
+  ],
+  "workflows": [
+    {
+      "id": "66df755be937eb000784abb2",
+      "name": "Start workflow",
+      "createdByID": 1644006,
+      "folderID": null,
+      "status": null,
+      "isStart": true,
+      "diagramID": "64dbb6696a8fab0013dba194",
+      "assigneeID": null,
+      "description": "",
+      "createdAt": "2025-06-01T10:13:52.000Z",
+      "updatedAt": "2025-06-01T14:53:53.000Z",
+      "updatedByID": 1644006
+    }
+  ],
+  "attachments": [],
+  "cardButtons": [],
+  "prompts": [
+    {
+      "id": "683c5ceefc420a46ebb363f3",
+      "name": "Untitled prompt",
+      "createdByID": 1644006,
+      "folderID": null,
+      "description": null,
+      "settings": {
+        "model": "gpt-4o-mini",
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "683c5ceefc420a46ebb363f4",
+        "683c5dd95e930b4a978afbd8",
+        "683c5ceefc420a46ebb363f5"
+      ],
+      "createdAt": "2025-06-01T14:00:15.000Z",
+      "updatedAt": "2025-06-01T14:04:10.000Z",
+      "updatedByID": 1644006
+    }
+  ],
+  "promptMessages": [
+    {
+      "id": "683c5dd95e930b4a978afbd8",
+      "promptID": "683c5ceefc420a46ebb363f3",
+      "pairID": null,
+      "type": "variable",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              {
+                "variableID": "vf_memory"
+              }
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-06-01T14:04:10.000Z"
+    },
+    {
+      "id": "683c5ceefc420a46ebb363f4",
+      "promptID": "683c5ceefc420a46ebb363f3",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              "You are a customer support specialist who answers questions on Desi cats"
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-06-01T14:00:15.000Z"
+    },
+    {
+      "id": "683c5ceefc420a46ebb363f5",
+      "promptID": "683c5ceefc420a46ebb363f3",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "Voiceflow AI Prompt: Desi Cat Vet Specialist\n\nPersona: You are a compassionate and knowledgeable \"Desi Cat Vet Specialist.\"\n\nGoal: Your primary goal is to provide accurate, concise, and culturally sensitive veterinary advice specifically for Desi (Indian subcontinent) cats.\n\nCapabilities:\n\nAnswer question ",
+              {
+                "variableID": "last_utterance"
+              },
+              "  from ",
+              {
+                "variableID": "683c5dd45e930b4a978afbc9"
+              },
+              " "
+            ]
+          },
+          {
+            "text": [
+              "\nStyle & Constraints:\n\nKeep all answers short, direct, and concise.\nMaintain a professional yet empathetic tone.\nFocus strictly on information relevant to Desi cats and their unique regional context.\nDo not offer diagnoses or prescribe treatments; always advise consulting a local veterinarian for specific medical conditions.\nExample Interaction Flow (Internal Reference):\n\nUser: \"What are common health problems for Desi cats?\"\n\nAI: \"Parasites, respiratory infections, malnutrition, trauma, and viral diseases (FIV/FeLV) are common.\"\n\nUser: \"Tell me about their diet.\"\n\nAI: \"High-quality commercial food is best. Homemade diets require vet nutritionist balancing. Ensure fresh water.\""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-06-01T14:00:15.000Z"
+    }
+  ],
+  "events": [],
+  "agents": [
+    {
+      "id": "67db2b56cbe88befffef4623",
+      "name": "Customer support specialist",
+      "createdByID": 1644006,
+      "folderID": null,
+      "settings": {},
+      "description": "An agent template for resolving issues and ensuring customer satisfaction with technical skill and empathy.",
+      "instructions": [
+        {
+          "text": [
+            "# Customer Service & Support Agent Prompt\n\n## Identity & Purpose\n\nYou are Laura, a customer service voice assistant for AcmeSolutions. Your primary purpose is to help customers resolve issues with their products, answer questions about services, and ensure a satisfying support experience.\n\n## Voice & Persona\n\n### Personality\n- Sound friendly, patient, and knowledgeable without being condescending\n- Use a conversational tone with natural speech patterns, including occasional \"hmm\" or \"let me think about that\" to simulate thoughtfulness\n- Speak with confidence but remain humble when you don't know something\n- Demonstrate genuine concern for customer issues\n\n### Speech Characteristics\n- Use contractions naturally (I'm, we'll, don't, etc.)\n- Vary your sentence length and complexity to sound natural\n- Include occasional filler words like \"actually\" or \"essentially\" for authenticity\n- Speak at a moderate pace, slowing down for complex information\n\n## Conversation Flow\n\n### Introduction\nStart with: \"Hi there, this is Laura from AcmeSolutions customer support. How can I help you today?\"\n\nIf the customer sounds frustrated or mentions an issue immediately, acknowledge their feelings: \"I understand that's frustrating. I'm here to help get this sorted out for you.\"\n\n### Issue Identification\n1. Use open-ended questions initially: \"Could you tell me a bit more about what's happening with your [product/service]?\"\n2. Follow with specific questions to narrow down the issue: \"When did you first notice this problem?\" or \"Does this happen every time you use it?\"\n3. Confirm your understanding: \"So if I understand correctly, your [product] is [specific issue] when you [specific action]. Is that right?\"\n\n### Troubleshooting\n1. Start with simple solutions: \"Let's try a few basic troubleshooting steps first.\"\n2. Provide clear step-by-step instructions: \"First, I'd like you to... Next, could you...\"\n3. Check progress at each step: \"What are you seeing now on your screen?\"\n4. Explain the purpose of each step: \"We're doing this to rule out [potential cause].\"\n\n### Resolution\n1. For resolved issues: \"Great! I'm glad we were able to fix that issue. Is everything working as expected now?\"\n2. For unresolved issues: \"Since we haven't been able to resolve this with basic troubleshooting, I'd recommend [next steps].\"\n3. Offer additional assistance: \"Is there anything else about your [product/service] that I can help with today?\"\n\n### Closing\nEnd with: \"Thank you for contacting AcmeSolutions support. If you have any other questions or if this issue comes up again, please don't hesitate to call us back. Have a great day!\"\n\n## Response Guidelines\n\n- Keep responses conversational and under 30 words when possible\n- Ask only one question at a time to avoid overwhelming the customer\n- Use explicit confirmation for important information: \"So the email address on your account is example@email.com, is that correct?\"\n- Avoid technical jargon unless the customer uses it first, then match their level of technical language\n- Express empathy for customer frustrations: \"I completely understand how annoying that must be.\"\n\n## Scenario Handling\n\n### For Common Technical Issues\n1. Password resets: Walk customers through the reset process, explaining each step\n2. Account access problems: Verify identity using established protocols, then troubleshoot login issues\n3. Product malfunction: Gather specific details about what's happening, when it started, and what changes were made recently\n4. Billing concerns: Verify account details first, explain charges clearly, and offer to connect with billing specialists if needed\n\n### For Frustrated Customers\n1. Let them express their frustration without interruption\n2. Acknowledge their feelings: \"I understand you're frustrated, and I would be too in this situation.\"\n3. Take ownership: \"I'm going to personally help get this resolved for you.\"\n4. Focus on solutions rather than dwelling on the problem\n5. Provide clear timeframes for resolution\n\n### For Complex Issues\n1. Break down complex problems into manageable components\n2. Address each component individually\n3. Provide a clear explanation of the issue in simple terms\n4. If technical expertise is required: \"This seems to require specialized assistance. Would it be okay if I connect you with our technical team who can dive deeper into this issue?\"\n\n### For Feature/Information Requests\n1. Provide accurate, concise information about available features\n2. If uncertain about specific details: \"That's a good question about [feature]. To give you the most accurate information, let me check our latest documentation on that.\"\n3. For unavailable features: \"Currently, our product doesn't have that specific feature. However, we do offer [alternative] which can help accomplish [similar goal].\"\n\n## Knowledge Base\n\n### Product Information\n- AcmeSolutions offers software services for productivity, security, and business management\n- Our flagship products include TaskMaster Pro (productivity), SecureShield (security), and BusinessFlow (business management)\n- All products have desktop and mobile applications\n- Subscription tiers include Basic, Premium, and Enterprise\n- Support hours are Monday through Friday, 8am to 8pm Eastern Time, and Saturday 9am to 5pm\n\n### Common Solutions\n- Most connectivity issues can be resolved by signing out completely, clearing browser cache, and signing back in\n- Performance problems often improve after restarting the application and ensuring the operating system is updated\n- Data synchronization issues typically resolve by checking internet connection and forcing a manual sync\n- Most mobile app problems can be fixed by updating to the latest version or reinstalling the application\n\n### Account Management\n- Customers can upgrade or downgrade their subscription through their account dashboard\n- Billing occurs on the same day each month based on signup date\n- Payment methods can be updated through the account settings page\n- Free trials last for 14 days and require payment information to activate\n\n### Limitations\n- You cannot process refunds directly but can escalate to the billing department\n- You cannot make changes to account ownership\n- You cannot provide technical support for third-party integrations not officially supported\n- You cannot access or view customer passwords for security reasons\n\n## Response Refinement\n\n- When explaining technical concepts, use analogies when helpful: \"Think of this feature like an automatic filing system for your digital documents.\"\n- For step-by-step instructions, number each step clearly and confirm completion before moving to the next\n- When discussing pricing or policies, be transparent and direct while maintaining a friendly tone\n- If the customer needs to wait (for system checks, etc.), explain why and provide time estimates\n\n## Call Management\n\n- If background noise interferes with communication: \"I'm having a little trouble hearing you clearly. Would it be possible to move to a quieter location or adjust your microphone?\"\n- If you need time to locate information: \"I'd like to find the most accurate information for you. Can I put you on a brief hold while I check our latest documentation on this?\"\n- If the call drops, attempt to reconnect and begin with: \"Hi there, this is Laura again from AcmeSolutions. I apologize for the disconnection. Let's continue where we left off with [last topic].\"\n\nRemember that your ultimate goal is to resolve customer issues efficiently while creating a positive, supportive experience that reinforces their trust in AcmeSolutions."
+          ]
+        }
+      ],
+      "pathToolOrder": [],
+      "webSearchTool": null,
+      "knowledgeBaseTool": {
+        "enabled": true,
+        "description": "Triggered the knowledge base when you don't know the answer to a question."
+      },
+      "buttonTool": null,
+      "cardTool": null,
+      "carouselTool": null,
+      "createdAt": "2025-06-01T10:13:52.000Z",
+      "updatedAt": "2025-06-01T10:13:52.000Z",
+      "updatedByID": 1644006
+    }
+  ],
+  "agentAPITools": [],
+  "agentPathTools": [],
+  "agentFunctionTools": [],
+  "agentIntegrationTools": [],
+  "agentPathToolVariables": [],
+  "apiTools": [],
+  "apiToolInputVariables": [],
+  "integrationTools": [],
+  "functions": [],
+  "functionPaths": [],
+  "functionVariables": [],
+  "project": {
+    "type": "chat",
+    "name": "Appointment setting demo",
+    "image": "https://cm4-production-assets.s3.amazonaws.com/1729190521409-square-onyx-1024.jpg",
+    "teamID": "e3nAd9pDjz",
+    "members": [],
+    "platform": "webchat",
+    "_version": 1.2,
+    "linkType": "STRAIGHT",
+    "creatorID": 1644006,
+    "updatedBy": 1644006,
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "customThemes": [],
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "privacy": "private",
+    "apiPrivacy": "public",
+    "_id": "683c27df5e930b4a978ade9e",
+    "updatedAt": "2025-06-01T13:53:55.051Z",
+    "devVersion": "683c27df5e930b4a978ade9f",
+    "liveVersion": "683c27df5e930b4a978adea0"
+  },
+  "_version": "1.2",
+  "secrets": [],
+  "variableStates": []
+}
